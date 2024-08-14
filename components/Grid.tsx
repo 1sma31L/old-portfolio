@@ -1,24 +1,37 @@
-/* eslint-disable @next/next/no-img-element */
-import React from "react";
+import { gridItems } from "@/data";
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
-import { gridItems } from "../data/index";
-function Grid() {
+
+const Grid = () => {
 	return (
-		<section>
-			<BentoGrid className="max-w-4xl mx-auto">
-				{gridItems.map((item: any, i: number) => (
-					<BentoGridItem
-						key={i}
-						title={item.title}
-						description={item.description}
-						header={item.header}
-						// icon={item.icon}
-						className={i === 3 || i === 6 ? "md:col-span-2" : ""}
-					/>
-				))}
+		<section id="about" className="my-10">
+			<BentoGrid className="w-full py-20">
+				{gridItems.map(
+					({
+						id,
+						title,
+						description,
+						className,
+						img,
+						imgClassName,
+						titleClassName,
+						spareImg,
+					}) => (
+						<BentoGridItem
+							id={id}
+							key={id}
+							title={title}
+							description={description}
+							className={className}
+							img={img}
+							imgClassName={imgClassName}
+							titleClassName={titleClassName}
+							spareImg={spareImg}
+						/>
+					)
+				)}
 			</BentoGrid>
 		</section>
 	);
-}
+};
 
 export default Grid;
