@@ -5,7 +5,6 @@ import { useTheme } from "next-themes";
 
 function Lights() {
 	const theme = useTheme();
-	console.log(theme);
 	return (
 		<div>
 			<Spotlight
