@@ -22,11 +22,8 @@ function Hero() {
 						className="text-center text-[40px] md:text-5xl lg:text-6xl"
 					/>
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-						Hi! I&apos;m{" "}
-						<span>
-							<strong>Ismail</strong>
-						</span>
-						, a Next.js Developer based in Algeria
+						Hi! I&apos;m
+						<strong> Ismail</strong>, a Next.js Developer based in Algeria
 					</p>
 					<Link href="/projects">
 						<MagicButton
