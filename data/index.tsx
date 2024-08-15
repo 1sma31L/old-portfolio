@@ -83,7 +83,7 @@ export const projects = [
 		des: "A landing page that was intened to look aesthetic and cosmic it was my first project using HTML and CSS",
 		img: "/universe.png",
 		iconLists: ["/HTML.png", "/CSS.png"],
-		link: "1sma31l.github.io/astronomy/",
+		link: "https://1sma31l.github.io/astronomy/",
 	},
 	{
 		id: 2,
@@ -91,7 +91,7 @@ export const projects = [
 		des: "ENSTA is website I made using React and TialwindCSS to share informations and famous asked questions for newly graduated Bachelor’s.",
 		img: "/ENSTA.png",
 		iconLists: ["/ts.svg", "/tail.svg", "/re.svg"],
-		link: "1sma31l.github.io/ensta/",
+		link: "https://1sma31l.github.io/ensta/",
 	},
 	{
 		id: 3,
@@ -99,7 +99,7 @@ export const projects = [
 		des: "This is a simple Tic-Tac-Toe game implemented in React. The game features a 3x3 grid where two players take turns marking cells with either a circle or a cross. The game detects the winning combination and highlights the winning cells, and also handles the scenario of a draw.",
 		img: "/tictactoe.png",
 		iconLists: ["/ts.svg", "/tail.svg", "/re.svg"],
-		link: "1sma31l.github.io/tictactoe-game/",
+		link: "https://1sma31l.github.io/tictactoe-game/",
 	},
 	{
 		id: 4,
@@ -107,7 +107,7 @@ export const projects = [
 		des: "This project implements a simple web-based music player using HTML, CSS, and JavaScript that plays the song Where Is My Mind ?",
 		img: "/mp.png",
 		iconLists: ["/HTML.png", "/CSS.png", "js.png"],
-		link: "1sma31l.github.io/Music-player/",
+		link: "https://1sma31l.github.io/Music-player/",
 	},
 ];
 
