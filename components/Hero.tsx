@@ -35,7 +35,7 @@ function Hero() {
 						/>
 					</Link>
 				</div>
-				<div className="relative z-50 w-[50%] lg:min-w-[400px] min-w-[200px] rounded-lg overflow-hidden hover:scale-[1.03] duration-300 transition-all shadow-xl hover:shadow-3xl">
+				<div className="relative z-50 md:w-[50%] lg:min-w-[400px] min-w-[300px] w-[100%] rounded-lg overflow-hidden hover:scale-[1.03] duration-300 transition-all shadow-xl hover:shadow-3xl">
 					<img
 						src="/me.jpg"
 						alt="my picture"
