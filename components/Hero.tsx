@@ -7,7 +7,7 @@ import Lights from "./ui/Lights";
 
 function Hero() {
 	return (
-		<section className="lg:pb-8 lg:pt-32 pt-8" id="hero">
+		<section className="lg:pb-8 lg:pt-32 pt-8 px-2" id="hero">
 			<Lights />
 			{/* Grid */}
 			<div className="h-[50rem] w-full dark:bg-grid-white/[0.02] bg-grid-black/[0.03] absolute top-0 left-0 flex items-center justify-center">
@@ -35,7 +35,7 @@ function Hero() {
 						/>
 					</Link>
 				</div>
-				<div className="relative z-50 w-[50%] lg:min-w-[400px] min-w-[200px] rounded-full overflow-hidden hover:scale-[1.03] duration-300 transition-all shadow-xl hover:shadow-3xl">
+				<div className="relative z-50 w-[50%] lg:min-w-[400px] min-w-[200px] rounded-lg overflow-hidden hover:scale-[1.03] duration-300 transition-all shadow-xl hover:shadow-3xl">
 					<img
 						src="/me.jpg"
 						alt="my picture"
