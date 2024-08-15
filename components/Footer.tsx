@@ -6,17 +6,17 @@ import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 
 const Footer = () => {
 	return (
-		<footer className="w-full pt-20 pb-4" id="contact">
+		<footer className="w-full pt-20 pb-4 relative" id="contact">
 			{/* background grid */}
-			<div className="w-full absolute left-0 -bottom-72 min-h-96">
+			<div className="w-screen  absolute left-0 -top-64 ">
 				<img
 					src="/footer-grid.svg"
 					alt="grid"
-					className="w-full h-full opacity-50 "
+					className="w-screen h-screen opacity-90"
 				/>
 			</div>
 
-			<div className="flex flex-col items-center">
+			<div className="flex flex-col items-center z-50">
 				<h1 className="heading lg:max-w-[45vw]">
 					Ready to take <span className="text-purple">your</span> digital
 					presence to the <span className="text-purple">next level ?</span>
