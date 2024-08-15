@@ -3,7 +3,6 @@ import MagicButton from "./ui/MagicButton";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import Link from "next/link";
 import Lights from "./ui/Lights";
-import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 
 function Hero() {
 	return (
