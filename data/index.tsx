@@ -8,13 +8,14 @@ export const navItems = [
 	{ name: "Experience", link: "#experience", icon: <FaRankingStar /> },
 	{ name: "Projects", link: "#projects", icon: <CgWebsite /> },
 	{ name: "About", link: "#about", icon: <FaUserCircle /> },
-	{ name: "Home", link: "/", icon: <FaHome /> },
+	{ name: "Home", link: "#hero", icon: <FaHome /> },
 ];
 
 export const gridItems = [
 	{
 		id: 1,
-		title: "I prioritize client collaboration, fostering open communication ",
+		title:
+			"I focus on working closely with clients and keeping communication open.",
 		description: "",
 		className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
 		imgClassName: "w-full h-full",
@@ -24,7 +25,7 @@ export const gridItems = [
 	},
 	{
 		id: 2,
-		title: "I'm very flexible with time zone communications",
+		title: "Building global connections through code.",
 		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-2",
 		imgClassName: "",
@@ -44,7 +45,7 @@ export const gridItems = [
 	},
 	{
 		id: 4,
-		title: "Tech enthusiast with a passion for development.",
+		title: "I'm a tech enthusiast who loves building and creating things.",
 		description: "",
 		className: "lg:col-span-2 md:col-span-3 md:row-span-1",
 		imgClassName: "",
@@ -55,7 +56,7 @@ export const gridItems = [
 
 	{
 		id: 5,
-		title: "Currently building a JS Animation library",
+		title: "Currently building GDSC ENSTA Website.",
 		description: "The Inside Scoop",
 		className: "md:col-span-3 md:row-span-2",
 		imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -78,64 +79,64 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "3D Solar System Planets to Explore",
-		des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-		img: "/p1.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-		link: "/ui.earth.com",
+		title: "Whate Is Cosmos?",
+		des: "A landing page that was intened to look aesthetic and cosmic it was my first project using HTML and CSS",
+		img: "/universe.png",
+		iconLists: ["/HTML.png", "/CSS.png"],
+		link: "1sma31l.github.io/astronomy/",
 	},
 	{
 		id: 2,
-		title: "Yoom - Video Conferencing App",
-		des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-		img: "/p2.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-		link: "/ui.yoom.com",
+		title: "My University Website",
+		des: "ENSTA is website I made using React and TialwindCSS to share informations and famous asked questions for newly graduated Bachelor’s.",
+		img: "/ENSTA.png",
+		iconLists: ["/ts.svg", "/tail.svg", "/re.svg"],
+		link: "1sma31l.github.io/ensta/",
 	},
 	{
 		id: 3,
-		title: "AI Image SaaS - Canva Application",
-		des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-		img: "/p3.svg",
-		iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-		link: "/ui.aiimg.com",
+		title: "A TicTacToe Game",
+		des: "This is a simple Tic-Tac-Toe game implemented in React. The game features a 3x3 grid where two players take turns marking cells with either a circle or a cross. The game detects the winning combination and highlights the winning cells, and also handles the scenario of a draw.",
+		img: "/tictactoe.png",
+		iconLists: ["/ts.svg", "/tail.svg", "/re.svg"],
+		link: "1sma31l.github.io/tictactoe-game/",
 	},
 	{
 		id: 4,
-		title: "Animated Apple Iphone 3D Website",
-		des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-		img: "/p4.svg",
-		iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-		link: "/ui.apple.com",
+		title: "Simple Aesthetic Music Player",
+		des: "This project implements a simple web-based music player using HTML, CSS, and JavaScript that plays the song Where Is My Mind ?",
+		img: "/mp.png",
+		iconLists: ["/HTML.png", "/CSS.png", "js.png"],
+		link: "1sma31l.github.io/Music-player/",
 	},
 ];
 
 export const workExperience = [
 	{
 		id: 1,
-		title: "Frontend Engineer Intern",
-		desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+		title: "Frontend Developer Intern",
+		desc: "Contributed to the development of a dynamic web platform using React.js, enhancing user interactivity and overall experience.",
 		className: "md:col-span-2",
 		thumbnail: "/exp1.svg",
 	},
 	{
 		id: 2,
-		title: "Mobile App Dev - JSM Tech",
-		desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-		className: "md:col-span-2", // change to md:col-span-2
+		title: "Personal Project Experience",
+		desc: "Developed numerous personal projects, focusing on crafting user interfaces with modern technologies like React and CSS frameworks to solve real-world problems.",
+		className: "md:col-span-2",
 		thumbnail: "/exp2.svg",
 	},
 	{
 		id: 3,
-		title: "Freelance App Dev Project",
-		desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-		className: "md:col-span-2", // change to md:col-span-2
+		title: "Freelancer",
+		desc: "Led multiple frontend projects, including designing and developing responsive web applications and optimizing user interfaces for various clients.",
+		className: "md:col-span-2",
 		thumbnail: "/exp3.svg",
 	},
 	{
 		id: 4,
-		title: "Lead Frontend Developer",
-		desc: "Developed and maintained user-facing features using modern frontend technologies.",
+		title: "Used To API Integrations",
+		desc: "Led the development of advanced user-facing features, integrating with various APIs to enhance functionality and ensure seamless data interactions. Utilized modern frontend technologies to deliver high-performance web applications.",
 		className: "md:col-span-2",
 		thumbnail: "/exp4.svg",
 	},
