@@ -1,11 +1,11 @@
 import { CgWebsite } from "react-icons/cg";
 import { FaHome, FaUserCircle } from "react-icons/fa";
-import { FaRegComments } from "react-icons/fa";
+import { FaRankingStar } from "react-icons/fa6";
 import { MdOutlineContactPhone } from "react-icons/md";
 
 export const navItems = [
 	{ name: "Contact", link: "#contact", icon: <MdOutlineContactPhone /> },
-	{ name: "Testimonials", link: "#testimonials", icon: <FaRegComments /> },
+	{ name: "Experience", link: "#experience", icon: <FaRankingStar /> },
 	{ name: "Projects", link: "#projects", icon: <CgWebsite /> },
 	{ name: "About", link: "#about", icon: <FaUserCircle /> },
 	{ name: "Home", link: "#hero", icon: <FaHome /> },
@@ -110,72 +110,6 @@ export const projects = [
 	},
 ];
 
-export const testimonials = [
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-	{
-		quote:
-			"Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-		name: "Michael Johnson",
-		title: "Director of AlphaStream Technologies",
-	},
-];
-
-export const companies = [
-	{
-		id: 1,
-		name: "cloudinary",
-		img: "/cloud.svg",
-		nameImg: "/cloudName.svg",
-	},
-	{
-		id: 2,
-		name: "appwrite",
-		img: "/app.svg",
-		nameImg: "/appName.svg",
-	},
-	{
-		id: 3,
-		name: "HOSTINGER",
-		img: "/host.svg",
-		nameImg: "/hostName.svg",
-	},
-	{
-		id: 4,
-		name: "stream",
-		img: "/s.svg",
-		nameImg: "/streamName.svg",
-	},
-	{
-		id: 5,
-		name: "docker.",
-		img: "/dock.svg",
-		nameImg: "/dockerName.svg",
-	},
-];
-
 export const workExperience = [
 	{
 		id: 1,
@@ -211,13 +145,16 @@ export const socialMedia = [
 	{
 		id: 1,
 		img: "/git.svg",
+		link: "https://github.com/1sma31L",
 	},
 	{
 		id: 2,
 		img: "/twit.svg",
+		link: "https://x.com/pplcallmeismail",
 	},
 	{
 		id: 3,
 		img: "/link.svg",
+		link: "https://www.linkedin.com/in/ismail-bouseekine/",
 	},
 ];
