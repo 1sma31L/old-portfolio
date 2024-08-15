@@ -5,6 +5,7 @@ import MagicButton from "./ui/MagicButton";
 import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
 
 const Footer = () => {
+	const currentYear = new Date().getFullYear();
 	return (
 		<footer className="w-full pt-20 pb-4 relative" id="contact">
 			{/* background grid */}
@@ -35,7 +36,8 @@ const Footer = () => {
 			</div>
 			<div className="flex mt-16 md:flex-row flex-col-reverse justify-around items-center">
 				<p className="md:text-base text-[12px] md:font-normal font-light p-2">
-					© 2024 <strong>Ismail Boussekine</strong> | All Rights Reserved
+					© {currentYear} <strong>Ismail Boussekine</strong> | All Rights
+					Reserved
 				</p>
 				<div className="flex items-center md:gap-3 gap-2 p-2">
 					{socialMedia.map((info) => (
