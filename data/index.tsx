@@ -150,8 +150,9 @@ export const socialMedia = [
 	},
 	{
 		id: 2,
-		img: "/twit.svg",
+		img: "/x.png",
 		link: "https://x.com/pplcallmeismail",
+		className: "brightness-0 invert",
 	},
 	{
 		id: 3,
