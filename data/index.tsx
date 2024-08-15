@@ -1,13 +1,14 @@
 import { CgWebsite } from "react-icons/cg";
-import { FaUserCircle } from "react-icons/fa";
+import { FaHome, FaUserCircle } from "react-icons/fa";
 import { FaRegComments } from "react-icons/fa";
 import { MdOutlineContactPhone } from "react-icons/md";
 
 export const navItems = [
-	{ name: "About", link: "#about", icon: <FaUserCircle /> },
-	{ name: "Projects", link: "#projects", icon: <CgWebsite /> },
-	{ name: "Testimonials", link: "#testimonials", icon: <FaRegComments /> },
 	{ name: "Contact", link: "#contact", icon: <MdOutlineContactPhone /> },
+	{ name: "Testimonials", link: "#testimonials", icon: <FaRegComments /> },
+	{ name: "Projects", link: "#projects", icon: <CgWebsite /> },
+	{ name: "About", link: "#about", icon: <FaUserCircle /> },
+	{ name: "Home", link: "#hero", icon: <FaHome /> },
 ];
 
 export const gridItems = [
