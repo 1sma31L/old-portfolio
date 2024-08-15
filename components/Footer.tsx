@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { socialMedia } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import ThemeSwitcher from "@/components/ui/ThemeSwitcher";
+import Link from "next/link";
 
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
@@ -26,13 +27,13 @@ const Footer = () => {
 					Reach out to me today and let&apos;s discuss how I can help you
 					achieve your goals.
 				</p>
-				<a href="mailto:im.boussekine@gmail.com">
+				<Link href="mailto:im.boussekine@gmail.com">
 					<MagicButton
 						title="Let's get in touch"
 						icon={<FaLocationArrow />}
 						position="right"
 					/>
-				</a>
+				</Link>
 			</div>
 			<div className="flex mt-16 md:flex-row flex-col-reverse justify-around items-center">
 				<p className="md:text-base text-[12px] md:font-normal font-light p-2">

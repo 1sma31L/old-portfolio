@@ -6,12 +6,12 @@ function Lights() {
 		<div className="relative sm:opacity-100 opacity-50">
 			<Spotlight
 				className="absolute top-0 -left-30 md:-left-32 md:-top-20 h-[40vh] md:h-screen "
-				fill="blue"
+				fill="purple"
 			/>
 			<Spotlight
 				className="absolute top-0 -left-30 md:-left-32 md:-top-20 h-[40vh] md:h-screen "
 				style={{ transform: "scaleX(-1)" }}
-				fill="purple"
+				fill="blue"
 			/>
 
 			{/* <Spotlight className="h-[80vh] w-[50vw] top-10 left-full" fill="purple" /> */}
