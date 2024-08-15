@@ -8,7 +8,7 @@ export const navItems = [
 	{ name: "Experience", link: "#experience", icon: <FaRankingStar /> },
 	{ name: "Projects", link: "#projects", icon: <CgWebsite /> },
 	{ name: "About", link: "#about", icon: <FaUserCircle /> },
-	{ name: "Home", link: "#hero", icon: <FaHome /> },
+	{ name: "Home", link: "/", icon: <FaHome /> },
 ];
 
 export const gridItems = [
