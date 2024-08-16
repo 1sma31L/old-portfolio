@@ -159,4 +159,10 @@ export const socialMedia = [
 		img: "/link.svg",
 		link: "https://www.linkedin.com/in/ismail-bouseekine/",
 	},
+	{
+		id: 4,
+		img: "5.svg",
+		link: "https://khamsat.com/user/ismailboussekine",
+		className: "grayscale",
+	},
 ];
