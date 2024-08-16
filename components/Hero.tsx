@@ -21,7 +21,7 @@ function Hero() {
 					</p>
 					<TextGenerateEffect
 						words="Turning Ideas into Beautiful, Responsive Websites"
-						className="text-center text-[40px] md:text-5xl lg:text-6xl"
+						className="text-center text-[40px] md:text-5xl lg:text-6xl relative z-50"
 					/>
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
 						Hi! I&apos;m
