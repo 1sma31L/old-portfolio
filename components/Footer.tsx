@@ -39,8 +39,10 @@ const Footer = () => {
 			<div className="flex mt-16 xl:flex-row flex-col-reverse justify-around items-center">
 				<p className="md:text-base text-[12px] md:font-normal font-light p-2">
 					© {currentYear}{" "}
-					<strong className="dark:text-purple">Ismail M. Boussekine</strong> |
-					All Rights Reserved
+					<strong className="dark:text-purple">
+						Ismail Mohamed Boussekine
+					</strong>{" "}
+					| All Rights Reserved
 				</p>
 				<div className="flex items-center md:gap-3 gap-2 p-2">
 					{socialMedia.map((info) => (
