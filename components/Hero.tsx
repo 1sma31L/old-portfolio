@@ -25,7 +25,8 @@ function Hero() {
 					/>
 					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
 						Hi! I&apos;m
-						<strong> Ismail</strong>, a Front-End Developer from Algeria
+						<strong> Ismail</strong>, a <strong>Front-End Developer</strong>{" "}
+						from Algeria
 					</p>
 					<Link href="#projects">
 						<MagicButton

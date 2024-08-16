@@ -4,11 +4,11 @@ import { FaRankingStar } from "react-icons/fa6";
 import { MdOutlineContactPhone } from "react-icons/md";
 
 export const navItems = [
-	{ name: "Contact", link: "#contact", icon: <MdOutlineContactPhone /> },
-	{ name: "Experience", link: "#experience", icon: <FaRankingStar /> },
-	{ name: "Projects", link: "#projects", icon: <CgWebsite /> },
-	{ name: "About", link: "#about", icon: <FaUserCircle /> },
 	{ name: "Home", link: "#hero", icon: <FaHome /> },
+	{ name: "About", link: "#about", icon: <FaUserCircle /> },
+	{ name: "Projects", link: "#projects", icon: <CgWebsite /> },
+	{ name: "Experience", link: "#experience", icon: <FaRankingStar /> },
+	{ name: "Services", link: "#services", icon: <MdOutlineContactPhone /> },
 ];
 
 export const gridItems = [
@@ -151,18 +151,12 @@ export const socialMedia = [
 	{
 		id: 2,
 		img: "/x.png",
-		link: "https://x.com/pplcallmeismail",
+		link: "https://x.com/1sma31l_",
 		className: "brightness-0 invert",
 	},
 	{
 		id: 3,
 		img: "/link.svg",
 		link: "https://www.linkedin.com/in/ismail-bouseekine/",
-	},
-	{
-		id: 4,
-		img: "5.svg",
-		link: "https://khamsat.com/user/ismailboussekine",
-		className: "grayscale",
 	},
 ];

@@ -8,7 +8,7 @@ import Link from "next/link";
 const Footer = () => {
 	const currentYear = new Date().getFullYear();
 	return (
-		<footer className="w-full pt-20 pb-4 relative" id="contact">
+		<footer className="w-full pt-20 pb-4 relative" id="services">
 			{/* background grid */}
 			<div className="w-screen  absolute left-0 -top-64 ">
 				<img
@@ -19,17 +19,18 @@ const Footer = () => {
 			</div>
 
 			<div className="flex flex-col items-center z-50">
-				<h1 className="heading lg:max-w-[45vw]">
-					Ready to take <span className="text-purple">your</span> digital
-					presence to the <span className="text-purple">next level ?</span>
+				<h1 className="heading lg:max-w-[45vw] capitalize">
+					<span className="text-purple">You</span> Want me to work on achieving
+					<span className="text-purple"> your ideas?</span>
 				</h1>
 				<p className="text-white-200 md:mt-10 my-5 text-center">
-					Reach out to me today and let&apos;s discuss how I can help you
-					achieve your goals.
+					Reach out to me on{" "}
+					<span className="text-[#fab52c] font-bold">Khamasat</span> and buy my
+					services.
 				</p>
-				<Link href="mailto:im.boussekine@gmail.com">
+				<Link href="https://khamsat.com/user/ismailboussekine" target="_blank">
 					<MagicButton
-						title="Let's get in touch"
+						title="Buy My Services"
 						icon={<FaLocationArrow />}
 						position="right"
 					/>
@@ -37,8 +38,9 @@ const Footer = () => {
 			</div>
 			<div className="flex mt-16 xl:flex-row flex-col-reverse justify-around items-center">
 				<p className="md:text-base text-[12px] md:font-normal font-light p-2">
-					© {currentYear} <strong>Ismail Boussekine</strong> | All Rights
-					Reserved
+					© {currentYear}{" "}
+					<strong className="dark:text-purple">Ismail M. Boussekine</strong> |
+					All Rights Reserved
 				</p>
 				<div className="flex items-center md:gap-3 gap-2 p-2">
 					{socialMedia.map((info) => (
