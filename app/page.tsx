@@ -5,7 +5,7 @@ import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data/index";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-const RecenetProjects = dynamic(() => import("../components/RecentProjects"), {
+const RecentProjects = dynamic(() => import("../components/RecentProjects"), {
 	ssr: false,
 });
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
 				<FloatingNav navItems={navItems} className="dark:bg-black-100" />
 				<Hero />
 				<Grid />
-				<RecenetProjects />
+				<RecentProjects />
 				<Experience />
 				<Footer />
 			</div>
