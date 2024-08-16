@@ -35,7 +35,7 @@ const Footer = () => {
 					/>
 				</Link>
 			</div>
-			<div className="flex mt-16 md:flex-row flex-col-reverse justify-around items-center">
+			<div className="flex mt-16 xl:flex-row flex-col-reverse justify-around items-center">
 				<p className="md:text-base text-[12px] md:font-normal font-light p-2">
 					© {currentYear} <strong>Ismail Boussekine</strong> | All Rights
 					Reserved
