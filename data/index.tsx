@@ -70,7 +70,7 @@ export const gridItems = [
 export const projects = [
 	{
 		id: 1,
-		title: "Whate Is Cosmos?",
+		title: "What Is Cosmos?",
 		des: "A landing page that was intened to look aesthetic and cosmic it was my first project using HTML and CSS",
 		img: "/universe.png",
 		iconLists: ["/HTML.png", "/CSS.png"],
