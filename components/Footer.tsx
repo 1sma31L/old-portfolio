@@ -10,7 +10,7 @@ const Footer = () => {
 	return (
 		<footer className="w-full pt-20 pb-4 relative" id="services">
 			{/* background grid */}
-			<div className="w-screen  absolute left-0 -top-64 ">
+			<div className="w-screen  absolute left-0 -top-64">
 				<img
 					src="/footer-grid.svg"
 					alt="grid"
@@ -18,7 +18,7 @@ const Footer = () => {
 				/>
 			</div>
 
-			<div className="flex flex-col items-center z-50">
+			<div className="flex flex-col items-center relative z-50">
 				<h1 className="heading lg:max-w-[45vw] capitalize">
 					<span className="text-purple">You</span> Want me to work on achieving
 					<span className="text-purple"> your ideas?</span>
@@ -36,13 +36,11 @@ const Footer = () => {
 					/>
 				</Link>
 			</div>
-			<div className="flex mt-16 xl:flex-row flex-col-reverse justify-around items-center">
+			<div className="flex mt-16 xl:flex-row flex-col-reverse justify-around items-center relative z-50">
 				<p className="md:text-base text-[12px] md:font-normal font-light p-2">
 					© {currentYear}{" "}
-					<strong className="dark:text-purple">
-						Ismail Mohamed Boussekine
-					</strong>{" "}
-					| All Rights Reserved
+					<strong className="dark:text-purple">Ismail M. Boussekine</strong> |
+					All Rights Reserved
 				</p>
 				<div className="flex items-center md:gap-3 gap-2 p-2">
 					{socialMedia.map((info) => (
