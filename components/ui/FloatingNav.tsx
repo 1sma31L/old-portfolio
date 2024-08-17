@@ -6,7 +6,7 @@ import {
 	useScroll,
 	useMotionValueEvent,
 } from "framer-motion";
-import { cn } from "@/utils/utils";
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { FaHome } from "react-icons/fa";
 
