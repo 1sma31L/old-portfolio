@@ -36,7 +36,7 @@ const Footer = () => {
 					/>
 				</Link>
 			</div>
-			<div className="flex mt-16 xl:flex-row flex-col-reverse justify-around items-center relative z-50">
+			<div className="flex mt-16 lg:flex-row flex-col-reverse justify-around items-center relative z-50">
 				<p className="md:text-base text-[12px] md:font-normal font-light p-2">
 					© {currentYear}{" "}
 					<strong className="dark:text-purple">Ismail M. Boussekine</strong> |
