@@ -21,9 +21,9 @@ function Hero() {
 					</p>
 					<TextGenerateEffect
 						words="Turning Ideas into Beautiful, Responsive Websites"
-						className="text-center text-[40px] md:text-4xl lg:text-5xl relative z-50"
+						className="text-center text-[40px] md:text-4xl lg:text-4xl xl:text-5xl relative z-50"
 					/>
-					<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+					<p className="text-center md:tracking-wider  text-sm md:text-lg lg:text-2xl">
 						Hi! I&apos;m
 						<strong> Ismail</strong>, a <strong>Front-End Developer</strong>{" "}
 						from Algeria
@@ -36,11 +36,16 @@ function Hero() {
 						/>
 					</Link>
 				</div>
-				<div className="relative z-50 sm:w-[40%] lg:min-w-[400px] min-w-[300px] w-[80%] rounded-full overflow-hidden hover:scale-[1.03] duration-300 transition-all shadow-xl hover:shadow-3xl border-2 dark:shadow-[0_0_60px_0_rgba(203,172,249,0.5)] border-purple">
+				<div
+					className="relative z-50 
+
+						lg:w-[50%] w-[75%] max-w-[450px] min-w-[270px]  
+
+				 	    rounded-full overflow-hidden hover:scale-[1.03] duration-300 transition-all shadow-xl hover:shadow-3xl border-2 dark:shadow-[0_0_60px_0_rgba(203,172,249,0.5)] border-purple">
 					<img
 						src="/me.webp"
 						alt="my picture"
-						className=" w-full h-full object-cover"
+						className="w-full h-full object-cover"
 					/>
 				</div>
 				<Link href="#projects" className="lg:hidden block">
