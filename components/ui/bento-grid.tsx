@@ -1,8 +1,8 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
-import { cn } from "@/utils/utils";
+import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./background-gradient-animation";
-import GridGlobe from "./GridGlobe";
+// import GridGlobe from "./GridGlobe";
 import { useState } from "react";
 import Lottie from "react-lottie";
 import animationData from "@/data/confetti.json";
@@ -103,14 +103,11 @@ export const BentoGridItem = ({
 					<div className="font-sans font-extralight md:max-w-32 md:text-xs lg:text-base text-sm dark:text-[#C1C2D3] text-black-100 z-10">
 						{description}
 					</div>
-					<div
-						className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10 ${
-							id === 1 || id === 6 ? "text-white" : ""
-						}`}>
+					<div className="font-sans text-lg lg:text-3xl max-w-96 font-bold z-10">
 						{title}
 					</div>
 					{/* for the github 3d globe */}
-					{id === 2 && <GridGlobe />}
+
 					{id === 3 && (
 						<div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-2">
 							{/* tech stack lists */}
