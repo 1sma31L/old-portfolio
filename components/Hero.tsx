@@ -38,7 +38,7 @@ function Hero() {
 				</div>
 				<div className="relative z-50 sm:w-[40%] lg:min-w-[400px] min-w-[300px] w-[80%] rounded-full overflow-hidden hover:scale-[1.03] duration-300 transition-all shadow-xl hover:shadow-3xl border-2 dark:shadow-[0_0_60px_0_rgba(203,172,249,0.5)] border-purple">
 					<img
-						src="/me.jpg"
+						src="/me.webp"
 						alt="my picture"
 						className=" w-full h-full object-cover"
 					/>
