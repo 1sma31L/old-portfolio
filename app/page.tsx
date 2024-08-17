@@ -1,11 +1,14 @@
 import dynamic from "next/dynamic";
 import Hero from "@/components/Hero";
 import Grid from "@/components/Grid";
-import { FloatingNav } from "@/components/ui/FloatingNav";
+// import { FloatingNav } from "@/components/ui/FloatingNav";
 import { navItems } from "@/data/index";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 const RecentProjects = dynamic(() => import("../components/RecentProjects"), {
+	ssr: false,
+});
+const FloatingNav = dynamic(() => import("../components/ui/FloatingNav"), {
 	ssr: false,
 });
 export default function Home() {
