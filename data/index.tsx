@@ -142,7 +142,7 @@ export const socialMedia = [
 	{
 		id: 2,
 		img: "/x.png",
-		link: "https://x.com/_1sma31l",
+		link: "https://x.com/11sma31l",
 		className: "brightness-0 invert",
 	},
 	{
