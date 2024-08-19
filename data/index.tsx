@@ -68,14 +68,14 @@ export const gridItems = [
 ];
 
 export const projects = [
-	{
-		id: 1,
-		title: "What Is Cosmos?",
-		des: "A landing page that was intened to look aesthetic and cosmic it was my first project using HTML and CSS",
-		img: "/universe.webp",
-		iconLists: ["/HTML.png", "/CSS.png"],
-		link: "https://1sma31l.github.io/astronomy/",
-	},
+	// {
+	// 	id: 1,
+	// 	title: "What Is Cosmos?",
+	// 	des: "A landing page that was intened to look aesthetic and cosmic it was my first project using HTML and CSS",
+	// 	img: "/universe.webp",
+	// 	iconLists: ["/HTML.png", "/CSS.png"],
+	// 	link: "https://1sma31l.github.io/astronomy/",
+	// },
 	{
 		id: 2,
 		title: "My University Website",
@@ -92,14 +92,14 @@ export const projects = [
 		iconLists: ["/ts.svg", "/tail.svg", "/re.svg"],
 		link: "https://1sma31l.github.io/tictactoe-game/",
 	},
-	{
-		id: 4,
-		title: "Simple Aesthetic Music Player",
-		des: "This project implements a simple web-based music player using HTML, CSS, and JavaScript that plays the song Where Is My Mind ?",
-		img: "/mp.webp",
-		iconLists: ["/HTML.png", "/CSS.png", "js.png"],
-		link: "https://1sma31l.github.io/Music-player/",
-	},
+	// {
+	// 	id: 4,
+	// 	title: "Simple Aesthetic Music Player",
+	// 	des: "This project implements a simple web-based music player using HTML, CSS, and JavaScript that plays the song Where Is My Mind ?",
+	// 	img: "/mp.webp",
+	// 	iconLists: ["/HTML.png", "/CSS.png", "js.png"],
+	// 	link: "https://1sma31l.github.io/Music-player/",
+	// },
 ];
 
 export const workExperience = [
