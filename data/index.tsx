@@ -81,7 +81,7 @@ export const projects = [
 		title: "My University Website",
 		des: "ENSTA is website I made using React and TialwindCSS to share informations and famous asked questions for newly graduated Bachelor’s.",
 		img: "/ENSTA.webp",
-		iconLists: ["/ts.svg", "/tail.svg", "/re.svg"],
+		iconLists: ["/js.png", "/ts.svg", "/tail.svg", "/re.svg"],
 		link: "https://1sma31l.github.io/ensta/",
 	},
 	{
@@ -89,7 +89,7 @@ export const projects = [
 		title: "A TicTacToe Game",
 		des: "This is a simple Tic-Tac-Toe game implemented in React. The game features a 3x3 grid where two players take turns marking cells with either a circle or a cross. The game detects the winning combination and highlights the winning cells, and also handles the scenario of a draw.",
 		img: "/tictactoe.webp",
-		iconLists: ["/ts.svg", "/tail.svg", "/re.svg"],
+		iconLists: ["/js.png", "/tail.svg", "/re.svg"],
 		link: "https://1sma31l.github.io/tictactoe-game/",
 	},
 	// {
