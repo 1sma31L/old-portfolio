@@ -68,14 +68,14 @@ export const gridItems = [
 ];
 
 export const projects = [
-	// {
-	// 	id: 1,
-	// 	title: "What Is Cosmos?",
-	// 	des: "A landing page that was intened to look aesthetic and cosmic it was my first project using HTML and CSS",
-	// 	img: "/universe.webp",
-	// 	iconLists: ["/HTML.png", "/CSS.png"],
-	// 	link: "https://1sma31l.github.io/astronomy/",
-	// },
+	{
+		id: 1,
+		title: "What Is Trending",
+		des: "Simple website to check what are the trending Movies, TV Shows and Anime.",
+		img: "/wt.webp",
+		iconLists: ["/ts.svg", "/tail.svg", "/re.svg", "next.svg"],
+		link: "https://what-is-trending.vercel.app/",
+	},
 	{
 		id: 2,
 		title: "My University Website",
