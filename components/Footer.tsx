@@ -25,10 +25,10 @@ const Footer = () => {
 				</h1>
 				<p className="text-white-200 md:mt-10 my-5 text-center">
 					Reach out to me on{" "}
-					<span className="text-[#fab52c] font-bold">Khamasat</span> and buy my
+					<span className="text-purple font-bold">Fiverr.</span> and buy my
 					services.
 				</p>
-				<Link href="https://khamsat.com/user/ismailboussekine" target="_blank">
+				<Link href="https://www.fiverr.com/ismail_bouss/" target="_blank">
 					<MagicButton
 						title="Buy My Services"
 						icon={<FaLocationArrow />}
