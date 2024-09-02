@@ -78,6 +78,14 @@ export const projects = [
 	},
 	{
 		id: 2,
+		title: "Anonymous Message Sender",
+		des: "Simple webpage made using React and Firebase to send anonymous messages.",
+		img: "/anon.png",
+		iconLists: ["/ts.svg", "/re.svg", "/tail.svg", "next.svg", "firebase.svg"],
+		link: "https://nglismail.vercel.app/",
+	},
+	{
+		id: 3,
 		title: "My University Website",
 		des: "ENSTA is website I made using React and TialwindCSS to share informations and famous asked questions for newly graduated Bachelor’s.",
 		img: "/ENSTA.webp",
@@ -85,21 +93,13 @@ export const projects = [
 		link: "https://1sma31l.github.io/ensta/",
 	},
 	{
-		id: 3,
+		id: 4,
 		title: "A TicTacToe Game",
 		des: "This is a simple Tic-Tac-Toe game implemented in React. The game features a 3x3 grid where two players take turns marking cells with either a circle or a cross. The game detects the winning combination and highlights the winning cells, and also handles the scenario of a draw.",
 		img: "/tictactoe.webp",
 		iconLists: ["/js.png", "/tail.svg", "/re.svg"],
 		link: "https://1sma31l.github.io/tictactoe-game/",
 	},
-	// {
-	// 	id: 4,
-	// 	title: "Simple Aesthetic Music Player",
-	// 	des: "This project implements a simple web-based music player using HTML, CSS, and JavaScript that plays the song Where Is My Mind ?",
-	// 	img: "/mp.webp",
-	// 	iconLists: ["/HTML.png", "/CSS.png", "js.png"],
-	// 	link: "https://1sma31l.github.io/Music-player/",
-	// },
 ];
 
 export const workExperience = [
