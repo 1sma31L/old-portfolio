@@ -35,8 +35,8 @@ function Hero() {
 					</div> */}
 					<p className="text-center md:tracking-wider  text-sm md:text-lg lg:text-2xl">
 						Hi! I&apos;m
-						<strong> Ismail</strong>, a <strong>Front-End Developer</strong>{" "}
-						from Algeria
+						<strong> Ismail</strong>, a <strong>Full-Stack Developer</strong>{" "}
+						Based In Algeria.
 					</p>
 					<Link href="#projects" className="lg:block hidden">
 						<MagicButton
